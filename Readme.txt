@@ -35,3 +35,4 @@ isValidEmail($email2);
 5.	False
 
 6.	Parallel encryption of blocks of plain text bits
+6th dhi answer marchu own words lo
