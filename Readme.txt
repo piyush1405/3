@@ -17,3 +17,11 @@ validateEmail($email_second);
 7.print_r($GLOBALS);
 10.Average throught put=Bytes/sec
 6: Answer enti??
+
+3.	2,6,7
+
+4.	1,2
+
+5.	False
+
+6.	Parallel encryption of blocks of plain text bits
