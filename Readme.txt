@@ -16,3 +16,4 @@ validateEmail($email_second);
 9.document.getElementById("result").innerHTML = localStorage.getItem("lastname");
 7.print_r($GLOBALS);
 10.Average throught put=Bytes/sec
+6: Answer enti??
