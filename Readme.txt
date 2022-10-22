@@ -1,3 +1,4 @@
+Q1. F – None of the choice
 8<?php
 $email_id_first = 'smith@abc.com';
 $email_id_second = 'john@mycompany.tv';
@@ -13,3 +14,4 @@ validateEmail($email_second);
 
 9.document.getElementById("result").innerHTML = localStorage.getItem("lastname");
 7.print_r($GLOBALS);
+
