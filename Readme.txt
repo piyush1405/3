@@ -1,4 +1,5 @@
 Q1. F – None of the choice
+Q2. choice 2
 8<?php
 $email_id_first = 'smith@abc.com';
 $email_id_second = 'john@mycompany.tv';
