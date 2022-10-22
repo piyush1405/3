@@ -1,14 +1,24 @@
 Q1. F – None of the choice
 Q2. choice 2
 8<?php
-$email_id_first = 'smith@abc.com';
-$email_id_second = 'john@mycompany.tv';
-function validateEmail($email) {
-$regex = "/^([a-zA-Z0-9\.]+@+[a-zA-Z]+(\.)+[a-zA-Z]{2,3})$/";
-echo preg_match($regex, $email) ? "The email is valid." :"The email is not valid";
-}
-validateEmail($email_first);
-validateEmail($email_second);
+$email1='satyampavan3@gmail.com';
+$email2= 'fjadkfjd';
+
+function isValidEmail($email){ 
+     $pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$^"; 
+
+     if (preg_match($pattern, $email)){
+     echo("Valid");
+        return true; 
+     } 
+     else { 
+     echo("inVaid");
+        return false; 
+     }    
+} 
+
+isValidEmail($email1);
+isValidEmail($email2);
 ?>
 
 
